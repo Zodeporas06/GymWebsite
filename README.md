@@ -1,2 +1,2 @@
-# GymWebsite
-A website to manage gym
+# StudyWebsite
+A website to motivate for studying
