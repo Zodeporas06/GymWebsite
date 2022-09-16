@@ -28,8 +28,8 @@
     
     display: inline-block;
     position: absolute;
-    top: 30px;
-    left: 325px;
+    top: 60px;
+    left: 350px;
     color: rgb(153, 206, 226);
     text-decoration: none;
     font-size: 25px;
@@ -40,32 +40,33 @@
 
     display: inline-block;
     position: absolute;
-    top: 130px;
-    left: 325px;
+    top: 120px;
+    left: 320px;
     color: rgb(153, 206, 226);
     text-decoration: none;
     font-size: 25px;
     font-style: italic;
 }
 
-.about a {
+.dsa a {
 
     display: inline-block;
     position: absolute;
-    top: 230px;
-    left: 325px;
+    top: 180px;
+    left: 315px;
     color: rgb(153, 206, 226);
     text-decoration: none;
     font-size: 25px;
     font-style: italic;
 }
 
-.contact a {
+.theory a {
 
     display: inline-block;
     position: absolute;
-    top: 330px;
-    left: 325px;
+    text-align: center;
+    top: 270px;
+    left: 330px;
     color: rgb(153, 206, 226);
     text-decoration: none;
     font-size: 25px;
@@ -78,7 +79,6 @@
     text-decoration: underline;
     color: rgb(251, 205, 119);
     font-weight: bold;
-    font-size: 30px;
 }
 
 .java a:hover,
@@ -87,25 +87,22 @@
     text-decoration: underline;
     color: rgb(251, 205, 119);
     font-weight: bold;
-    font-size: 30px;
 }
 
-.about a:hover,
-.about a.active {
+.dsa a:hover,
+.dsa a.active {
 
     text-decoration: underline;
     color: rgb(251, 205, 119);
     font-weight: bold;
-    font-size: 30px;
 }
 
-.contact a:hover,
-.contact a.active {
+.theory a:hover,
+.theory a.active {
 
     text-decoration: underline;
     color: rgb(251, 205, 119);
     font-weight: bold;
-    font-size: 30px;
 }
 
 .line1 {
@@ -152,7 +149,7 @@
 
     display: inline-block;
     position: absolute;
-    top: 1050px;
+    top: 1010px;
     left: 15px;
     color: rgb(251, 190, 79);
     font-size: 70px;
@@ -166,13 +163,13 @@
 
     display: inline-block;
     position: absolute;
-    top: 1235px;
-    left: 60px;
+    top: 1220px;
+    left: 55px;
 }
 
 .learn_logo img {
 
-    width: 100px;
+    width: 120px;
 }
 
 .brief {
@@ -208,4 +205,40 @@
 .sub li {
 
     font-size: 30px;
+}
+
+.dsa_learn {
+
+    display: inline-block;
+    position: absolute;
+    top: 1840px;
+    right: 75px;
+    color: rgb(251, 190, 79);
+    font-size: 70px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 3px 3px whitesmoke;
+}
+
+.theory_learn {
+
+    display: inline-block;
+    position: absolute;
+    top: 2700px;
+    right: 300px;
+    color: rgb(251, 190, 79);
+    font-size: 70px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 3px 3px black;
+}
+
+.tp {
+
+    display: inline-block;
+    position: absolute;
+    top: 3680px;
+    left: 100px;
 }
