@@ -2,8 +2,8 @@
 
     margin: 0px;
     padding: 0px;
-    background: url('Assets/study.jpg');
-    height: 880px;
+    background: url('Assets/image.png');
+    height: 1760px;
 }
 
 .header {
@@ -151,4 +151,11 @@
 .material a:hover {
 
     color: orange;
+}
+
+.about_us {
+
+    position: absolute;
+    top: 900px;
+    color: black;
 }
