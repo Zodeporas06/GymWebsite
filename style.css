@@ -11,69 +11,144 @@
     color: aliceblue;
 }
 
-.left {
+.logo {
 
+    display: inline-block;
     position: absolute;
-    top: 20px;
-    left: 30px;
+    top: 100px;
+    left: 100px;
     display: inline-block;
-    border: 2px solid orange;
 }
 
-.center {
+.logo img {
 
+    width: 100px;
+}
+
+.home a {
     
-    display: block;
-    width: 40%;
-    margin: 20px auto;
-    border: 2px solid skyblue;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 325px;
+    font-size: 20px;
+    color: rgb(153, 206, 226);
+    text-decoration: none;
+    font-size: 25px;
+    font-style: italic;
 }
 
-.navbar {
-
-    margin-top: 2px;
-    margin-bottom: 2px;
-}
-
-.navbar li {
+.about a {
 
     display: inline-block;
+    position: absolute;
+    top: 130px;
+    left: 325px;
     font-size: 20px;
-}
-
-.navbar li a {
-
-    color: aliceblue;
+    color: rgb(153, 206, 226);
     text-decoration: none;
-    padding: 40px 20px;
+    font-size: 25px;
+    font-style: italic;
 }
 
-.navbar li a:hover, 
-.navbar li a.active {
+.java a {
+
+    display: inline-block;
+    position: absolute;
+    top: 230px;
+    left: 325px;
+    font-size: 20px;
+    color: rgb(153, 206, 226);
+    text-decoration: none;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.contact a {
+
+    display: inline-block;
+    position: absolute;
+    top: 330px;
+    left: 325px;
+    font-size: 20px;
+    color: rgb(153, 206, 226);
+    text-decoration: none;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.home a:hover,
+.home a.active {
 
     text-decoration: underline;
+    color: rgb(251, 205, 119);
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
 }
 
-.right {
+.about a:hover,
+.about a.active {
+
+    text-decoration: underline;
+    color: rgb(251, 205, 119);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.java a:hover,
+.java a.active {
+
+    text-decoration: underline;
+    color: rgb(251, 205, 119);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.contact a:hover,
+.contact a.active {
+
+    text-decoration: underline;
+    color: rgb(251, 205, 119);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.line1 {
+
+    display: inline-block;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 20px;
+    width: 30%;
+    border: solid 1px rgb(153, 206, 226);
+}
+
+.line2 {
+
+    display: inline-block;
+    position: absolute;
+    margin-top: 570px;
+    margin-left: 265px;
+    width: 30%;
+    border: solid 1px rgb(153, 206, 226);
+}
+
+.material {
 
     font-size: 20px;
-    background-color: black;
     position: absolute;
-    top: 20px;
-    right: 30px;
+    bottom: 40px;
+    left: 80px;
     display: inline-block;
-    border: 2px solid greenyellow;
 }
 
-.right a {
+.material a {
 
     color: aliceblue;
     text-decoration: none;
 }
 
-.right a:hover {
+.material a:hover {
 
     color: orange;
 }
