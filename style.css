@@ -139,13 +139,13 @@
 
 .material a {
 
-    color: aliceblue;
+    color: rgb(153, 206, 226);
     text-decoration: none;
 }
 
 .material a:hover {
 
-    color: orange;
+    color: rgb(251, 205, 119);
 }
 
 .java_learn {
@@ -175,53 +175,37 @@
     width: 100px;
 }
 
-.architecture a {
+.brief {
 
     display: inline-block;
     position: absolute;
-    top: 1075px;
-    right: 150px;
-    color: rgb(28, 127, 162);
-    font-size: 35px;
-    font-weight: bold;
-    text-decoration: none;
+    top: 1025px;
+    right: 15px;
 }
 
-.architecture a:hover {
-
-    text-decoration: underline;
-    color: rgb(9, 79, 105);
-    font-weight: bold;
-    font-size: 35px;
-}
-
-.arc {
-
-    display: inline-block;
-    position: absolute;
-    top: 1110px;
-    right: 50px;
-}
-
-.jdk li {
+.tags li {
 
     color: black;
-    font-size: 25px;
+    font-size: 35px;
+    line-height: 1.75em;
     font-weight: bold;
 }
 
-.jdk li a {
+.tags li a {
 
     list-style-type: square black;
-    color: rgb(28, 127, 162);
     text-decoration: none;
-    padding: 2px;
+    color: black;
 }
 
-.jdk li a:hover {
+.tags li a:hover {
 
+    text-shadow: 1px 1px black;
     text-decoration: underline;
-    color: rgb(9, 79, 105);
-    font-weight: bold;
-    font-size: 25px;
+    color: rgb(51, 155, 193);
+}
+
+.sub li {
+
+    font-size: 30px;
 }
